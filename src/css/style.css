@@ -1,0 +1,168 @@
+body {
+    height: 100vh;  max-height: -webkit-fill-available;
+}
+img {
+    object-fit: cover;
+}
+
+.profile_picture {
+    height: 35px;
+    width: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#ico {
+    color: black;
+}
+
+#profile-pfp {
+    height: 300px;
+}
+
+#banner {
+    height: 300px;
+    width: 100%;
+}
+
+.imgList {
+    height: 20px;
+    width: 20px;
+}
+
+a.disabledLink {
+    pointer-events: none;
+    cursor: default;
+}
+
+.close_ico {
+    cursor: pointer;
+}
+
+.removed {
+    display: none;
+}
+
+.newSocialsDrop {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.uploadButton {
+    position: absolute;
+    z-index: 2;
+    margin-left: auto;
+    right: 5px;
+    bottom: 5px;
+}
+.uploadButton2 {
+    position: absolute;
+    z-index: 2;
+    margin-left: auto;
+    right: 5px;
+    top: 5px;
+}
+.uploadButton3 {
+    position: absolute;
+    z-index: 2;
+    margin-left: auto;
+    right: 0;
+    top: 0;
+}
+input[type=file] {
+    display: none;
+}
+
+.chatProfileButton {
+    height: 35px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.chatPicture {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+}
+/* total width */
+*::-webkit-scrollbar {
+    background-color: #ffffff00;
+    width: 10px;
+}
+
+/* background of the scrollbar except button or resizer */
+*::-webkit-scrollbar-track {
+    background-color: #ffffff00;
+}
+
+/* scrollbar itself */
+*::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: none;
+}
+
+/* set button(top and bottom of the scrollbar) */
+*::-webkit-scrollbar-button {
+    display:none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.msgOther {
+    margin-right: auto;
+    border-radius: 10px 10px 10px 0;
+}
+
+.msgMe {
+    margin-left: auto;
+    border-radius: 10px 10px 0 10px;
+}
+
+.sender {
+    font-size: 12px;
+    max-width: 200px;
+}
+
+.msgMe .sender {
+    text-align: right;
+}
+
+.msgOther .sender {
+    text-align: left;
+}
+.msgContent {
+    word-wrap:break-word;
+    max-width: 400px;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    white-space: pre-wrap
+}
+
+.data {
+    font-size: 10px;
+}
+
+#chatsToggle {
+    position: absolute;
+    left: 0;
+    border-radius:  0 100px 100px 0;
+}
